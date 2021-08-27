@@ -4,4 +4,47 @@
     font-family: 'Fira Sans', sans-serif;
     --background-color: #E6E6E6;
     --primary-color: #FF8552;
+    background-color: var(--background-color);
+}
+
+h1 {
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem auto;
+}
+
+label {
+    padding: 1rem;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+input {
+    margin: auto;
+    display: block;
+    padding: 1rem;
+   width: 20rem; 
+}
+
+button {
+    margin: 1rem auto;
+    display: block;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    border-radius: 0.5rem; 
+    border-color: var(--primary-color);
+    font-weight: bold;
+}
+
+#output-box {
+    margin: auto;
+    display: block;
+    padding: 1rem;
+   width: 20rem; 
+   background-color: white;
+   border: 1px solid gray;
+   height: 2.5rem;
 }

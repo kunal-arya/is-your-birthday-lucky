@@ -6,9 +6,9 @@ const outputBox = document.querySelector("#output-box")
 
 function luckyOrNot (sum , luckyNumber ) {
     if ( sum % luckyNumber === 0) {
-        outputBox.innerText = "Your Birthday is Lucky"
+        outputBox.innerText = "Your Birthday is Lucky but don't wait for Luck, go and work"
     } else {
-        outputBox.innerText = "Your Birthday is not Lucky"
+        outputBox.innerText = "Your Birthday is not Lucky but don't worry, now You can make your own Luck"
     }
 }
 
